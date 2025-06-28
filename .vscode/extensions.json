@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "vuejs.vue-vscode-snippets",
+    "octref.vetur",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "Selemondev.shadcn-vue",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
