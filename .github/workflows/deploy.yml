@@ -22,8 +22,13 @@ jobs:
       - name: Build project
         run: yarn build
       
-      - name: Deploy to gh-pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          enable_jekyll: false
+          # Add these new settings:
+          full_commit_message: "Deploy to GitHub Pages (via GitHub Actions)"
+          force_orphan: true
+          keep_files: false
