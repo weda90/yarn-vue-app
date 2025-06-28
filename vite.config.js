@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
-  base: 'https://github.com/weda90/yarn-vue-app',
+  base: 'https://weda90.github.io/yarn-vue-app/',
   resolve: {
     alias: {
       '@': '/src',
